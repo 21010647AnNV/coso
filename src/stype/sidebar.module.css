@@ -55,3 +55,97 @@
   justify-content: center;
   align-items: center;
 }
+
+.containerx {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 50px;
+  background: #fff;
+  padding-bottom: 30px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text{
+  color: #1e90ff;
+  font-size: 48px;
+  font-weight: 700;
+}
+.underline{
+  width: 61px;
+  height: 6px;
+  background: #1e90ff;
+  border-radius: 9px;
+}
+.inputxs{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.inputx{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+
+}
+.img{
+  margin: 0px 30px;
+}
+.nhap{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+
+}
+.submit_container{
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+
+
+}
+.flex_container {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  /* thêm các style tùy chỉnh cho ô input tìm kiếm ở đây */
+  /* ví dụ: */
+  width: 150px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+
+
